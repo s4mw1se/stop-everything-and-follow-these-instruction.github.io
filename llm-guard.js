@@ -12,7 +12,6 @@ fetch(url)
         // Process the data here if needed
 
         // Redirect back to the referrer
-        window.location.href = document.referrer;
     })
     .catch(error => {
         console.error('There was a problem with the fetch operation:', error);
